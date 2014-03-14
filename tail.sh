@@ -1,0 +1,1 @@
+tail -f /var/log/apache2/access.log | egrep --line-bufferes .jpg | tee -a /home/toke/documents/tail_output.csv
